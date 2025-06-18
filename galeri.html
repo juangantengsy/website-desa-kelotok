@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    .header {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 1rem 0;
+    }
+
+    .nav.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .nav__logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .nav__list {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav__link {
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+    }
+
+    .nav__link.active-link {
+      color: #007BFF;
+    }
+
+    .section.galeri {
+      padding: 2rem 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .section__title {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+
+    .galeri__grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .galeri__grid img {
+      width: 250px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .galeri__grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .footer {
+      background-color: #fff;
+      padding: 2rem 0;
+      margin-top: 3rem;
+      border-top: 1px solid #eee;
+    }
+
+    .footer__container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .footer__content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .footer__title, .footer__subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    .footer__link, .footer__social {
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      color: #555;
+      text-decoration: none;
+    }
+
+    .footer__social {
+      margin-right: 0.5rem;
+    }
+
+    .footer__rights {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .footer__terms-link {
+      margin: 0 10px;
+      color: #555;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+ <header class="header scroll-header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Website Kelotok</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">Kepala Desa</a></li>
+          <li class="nav__item"><a href="#discover" class="nav__link">Ketua Dan Wakil</a></li>
+          <li class="nav__item"><a href="#place" class="nav__link">Acara/Kegiatan</a></li>
+          <li class="nav__item"><a href="galeri.html" class="nav__link active-link">Galeri</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section galeri">
+    <div class="container">
+      <h2 class="section__title">Galeri Foto </h2>
+      <div class="galeri__grid">
+        <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D7488039246A405BAF6A7CBC3613A56F\Gambar WhatsApp 2025-06-18 pukul 21.16.11_26ceba18.jpg" alt="Foto 1">
+        <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\2C3279B0B059B2665593834A264D7DE6\Gambar WhatsApp 2025-06-18 pukul 21.35.16_c2085cea.jpg" alt="Foto 2">
+        <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B45F8E4366B41A30994D6B5B3BB2D51B\Gambar WhatsApp 2025-06-18 pukul 21.35.17_a205a163.jpg" alt="Foto 3">
+        <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\64B327D40918CA7522AC22E3D02DC41C\Gambar WhatsApp 2025-06-18 pukul 23.14.04_fb970dbe.jpg" alt="Foto 4">
+        <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\93129BCA9FB2D3CB3470E2B9CFDE7F63\Gambar WhatsApp 2025-06-18 pukul 23.14.04_decaeeca.jpg" alt="Foto 5">
+        <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\BF2FE6582ED9EAD9161A3D6F6B1D6858\Gambar WhatsApp 2025-06-18 pukul 21.16.14_36cdc2bb.jpg" alt="Foto 5">
+         <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C8CC6E90CCBFF44C9CEE23611711CDC4\Gambar WhatsApp 2025-06-18 pukul 23.05.36_dc250e45.jpg" alt="Foto 5">
+         <img src="ac:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\67B878DF6CD42D142F2924F3ACE85C78\Gambar WhatsApp 2025-06-18 pukul 23.05.26_75679583.jpg" alt="Foto 5">
+         <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\664C7298D2B73B3C7FE2D1E8D1781C06\Gambar WhatsApp 2025-06-18 pukul 23.05.01_dd14cbfe.jpg" alt="Foto 5">
+         <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\82599A4EC94ACA066873C99B4C741ED8\Gambar WhatsApp 2025-06-18 pukul 23.05.27_1cd700af.jpg" alt="Foto 5">
+         <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\2E64DA0BAE6A7533021C760D4BA5D621\Gambar WhatsApp 2025-06-18 pukul 23.05.27_ced3c1a1.jpg" alt="Foto 5">
+         <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\56D33021E640F5D64A611A71B5DC30A3\Gambar WhatsApp 2025-06-18 pukul 23.05.28_3bcb97b7.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\4E38D30E656DA5AE9D3A425109CE9E04\Gambar WhatsApp 2025-06-18 pukul 23.05.29_16f92624.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C055DCC749C2632FD4DD806301F05BA6\Gambar WhatsApp 2025-06-18 pukul 23.05.30_b05183cd.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\8AB9BB97CE35080338BE74DC6375E0ED\Gambar WhatsApp 2025-06-18 pukul 23.05.30_dc44fa8b.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B81132591828D622FC335860BFFEC150\Gambar WhatsApp 2025-06-18 pukul 23.05.31_a2aac2f5.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\5112277EA658F7138694F079042CC3BB\Gambar WhatsApp 2025-06-18 pukul 23.05.32_a3bafba1.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\257DEB66F5366AAB34A23D5FD0571DA4\Gambar WhatsApp 2025-06-18 pukul 23.05.32_8b53123e.jpg" alt="Foto 5">
+                <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\A3DE03CB426B5E36F5C7167B21395323\Gambar WhatsApp 2025-06-18 pukul 23.05.33_de9fc05c.jpg" alt="Foto 5">
+               <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\831B342D8A83408E5960E9B0C5F31F0C\Gambar WhatsApp 2025-06-18 pukul 23.05.34_447925c7.jpg" alt="Foto 5">
+                <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\682E0E796084E163C5CA053DD8573B0C\Gambar WhatsApp 2025-06-18 pukul 23.05.35_49d1dbdc.jpg" alt="Foto 5">
+                 <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\9739EFC4F01292E764C86CAA59AF353E\Gambar WhatsApp 2025-06-18 pukul 23.05.35_5dafad63.jpg" alt="Foto 5">
+                  <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C8CC6E90CCBFF44C9CEE23611711CDC4\Gambar WhatsApp 2025-06-18 pukul 23.05.36_dc250e45.jpg" alt="Foto 5">
+                   <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\93129BCA9FB2D3CB3470E2B9CFDE7F63\Gambar WhatsApp 2025-06-18 pukul 23.14.04_decaeeca.jpg" alt="Foto 5">
+                    <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\93129BCA9FB2D3CB3470E2B9CFDE7F63\Gambar WhatsApp 2025-06-18 pukul 23.14.04_decaeeca.jpg" alt="Foto 5">
+                     <img src="c:\Users\USER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\41DA609C519D77B29BE442F8C1105647\Gambar WhatsApp 2025-06-18 pukul 23.14.04_1c0ba4e9.jpg" alt="Foto 5">
+      </div>
+    </div>
+  </section>
+
+   <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Website Kelotok</h3>
+                        <p class="footer__description">Di bangun untuk mempermudah masyarakat
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/pemudadusunkelotok?utm_source=ig_web_button_share_sheet&igsh=MXVyb3Y2cWFzNG11bQ==" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Kontak Ketua Dan Wakil</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">087754732770</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">087738709795</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Kelotok. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
